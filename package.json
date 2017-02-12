@@ -1,0 +1,23 @@
+{
+  "name": "static-pug",
+  "version": "1.0.0",
+  "description": "Let's you compile Pug files to HTML with ease",
+  "main": "index.js",
+  "scripts": {
+    "start": "pug -w ./src/views/pages -o ./bin"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gisderdube/static-pug.git"
+  },
+  "author": "Lukas Gisder-Dubé",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gisderdube/static-pug/issues"
+  },
+  "homepage": "https://github.com/gisderdube/static-pug#readme",
+  "devDependencies": {
+    "pug": "^2.0.0-beta11",
+    "pug-cli": "^1.0.0-alpha6"
+  }
+}
